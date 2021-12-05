@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
             var btn = $('<button type="button" class="VD_BUTTON">Оформить в рассрочку</button>').on('click', function(){
                 vd.create({
                     partnerCode: 'S0088825',
-                    partnerProductCode: '0-0-3;0-0-6;0-0-9;0-0-12',
+                    partnerProductCode: '0-0-6;0-0-10;0-0-12;0-0-24',
                     orderNum: '00012345',
                     delivery: 1,
                     items: tcart.products.map(function(item) { return {name: item.name, price: item.price, quantity: item.quantity}})
