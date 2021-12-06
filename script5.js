@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
         let myTouch = function(){
              btn.trigger('click')
         }
-        var btn = $('<button type="button" class="VD_BUTTON">Оформить в рассрочку</button>').on('click', myClickTouch);
+        var btn = $('<button type="button" class="VD_BUTTON">Оформить в рассрочку</button>').on('click', myClick);
         btn.on('touchstart',myTouch)
 
         $('.t706__cartwin-content').append(btn);
