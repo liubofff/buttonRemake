@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
         let orderId = Math.floor(Math.random() * (99999999 - 10000000 + 1)) + 10000000;
         let myClick = function(){
             vd.create({
-                partnerCode: 'S0088825',
+                partnerCode: orderId,
                 partnerProductCode: '0-0-6;0-0-10;0-0-12;0-0-24',
                 orderNum: '00012345',
                 delivery: 1,
